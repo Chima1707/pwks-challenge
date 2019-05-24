@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Payworks Tech Assignment
 
-## Available Scripts
+# Purpose
 
-In the project directory, you can run:
+Project is a tech assignment that serves the purpose of showcasing developer's skills.
+The project is a web app that communicates with Github's RESTful API. You can search for an organizations on github and view their repositories and its branches
 
-### `npm start`
+## Main Technologies Used
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React/Redux
+- reselect
+- antd
+- enzyme for testing
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+I used `react/redux` because I have good experience with it, `reselect`for its performance and it helps keep my redux store simple. Also, `antd` has a lot of cool and simple to use components, I used the project an opportunity to get farmiliar with it.
 
-### `npm test`
+## Project Structure
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `public` - public files
+- `src` - source code
+  _ `components` - React components
+  _ `redux` - Contains state management code, I made use of the [ducks pattern](https://github.com/erikras/ducks-modular-redux) \* `api` - Services for calling the github REST API
+- `index.js` - render's the app
 
-### `npm run build`
+## Run Project
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+How to run project:
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+```
+  git clone git@github.com:Chima1707/pwks-challenge.git
+  npm install
+  npm start
+  then visit http://localhost:3000
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+There is a hosted version of the app at https://chima1707.github.io/pwks-challenge/
 
-### `npm run eject`
+## Test Project
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`npm test`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## build Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+`npm run build`
