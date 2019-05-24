@@ -39,6 +39,6 @@ There is a hosted version of the app at https://chima1707.github.io/pwks-challen
 
 `npm test`
 
-## build Project
+## Build Project
 
 `npm run build`
