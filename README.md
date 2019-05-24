@@ -12,15 +12,15 @@ The project is a web app that communicates with Github's RESTful API. You can se
 - antd
 - enzyme for testing
 
-I used `react/redux` because I have good experience with it, `reselect`for its performance and it helps keep my redux store simple. Also, `antd` has a lot of cool and simple to use components, I used the project an opportunity to get farmiliar with it.
+I used `react/redux` because I have good experience with it, `reselect`for its performance and it helps keep my redux store simple. Also, `antd` has a lot of cool and simple to use components, I used the project as an opportunity to get farmiliar with it.
 
 ## Project Structure
 
 - `public` - public files
 - `src` - source code
-  _ `components` - React components
-  _ `redux` - Contains state management code, I made use of the [ducks pattern](https://github.com/erikras/ducks-modular-redux) \* `api` - Services for calling the github REST API
-- `index.js` - render's the app
+  _`components` - React components
+  _`redux` - Contains state management code, I made use of the [ducks pattern](https://github.com/erikras/ducks-modular-redux)
+  - `api` - Services for calling the github REST API
 
 ## Run Project
 
