@@ -18,8 +18,8 @@ I used `react/redux` because I have good experience with it, `reselect`for its p
 
 - `public` - public files
 - `src` - source code
-  _`components` - React components
-  _`redux` - Contains state management code, I made use of the [ducks pattern](https://github.com/erikras/ducks-modular-redux)
+  - `components` - React components
+  - `redux` - Contains state management code, I made use of the [ducks pattern](https://github.com/erikras/ducks-modular-redux)
   - `api` - Services for calling the github REST API
 
 ## Run Project
